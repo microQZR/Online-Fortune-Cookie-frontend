@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59.015mm" height="59.758mm" version="1.1" viewBox="0 0 59.015 59.758" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-99.004 -29.085)">
+  <g transform="matrix(.36146 0 0 -.36146 -230.73 390.46)" stroke-width="0">
+   <g transform="matrix(.6246 0 0 .6246 77.429 371.72)">
+    <circle transform="scale(1,-1)" cx="1387.7" cy="-899.49" r="45.612"/>
+    <circle transform="scale(1,-1)" cx="1421" cy="-790.31" r="40.659"/>
+    <circle transform="scale(1,-1)" cx="1370.6" cy="-831.89" r="34.066"/>
+    <circle transform="scale(1,-1)" cx="1478.4" cy="-774.91" r="34.066"/>
+    <circle transform="scale(1,-1)" cx="1534.4" cy="-799.33" r="40.659"/>
+   </g>
+   <ellipse transform="scale(1,-1)" cx="1006.3" cy="-929.57" rx="69.19" ry="70.208"/>
+  </g>
+ </g>
+</svg>
