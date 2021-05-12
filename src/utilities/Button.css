@@ -1,0 +1,36 @@
+.btn {
+  border: 4px solid;
+  border-radius: 10px;
+  min-width: 5.5em;
+  min-height: 2.2em;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.96);
+}
+
+.btn.blue {
+  color: #2a8fd8;
+  background-color: #89fff8;
+}
+
+.btn.blue:hover {
+  background-color: #2a8fd8;
+  border-color: #2a8fd8;
+  color: #fff;
+}
+
+.btn.green {
+  color: #000;
+  border-color: #2ad8ae;
+  background-color: #4dffbf;
+}
+
+.btn.green:hover {
+  background-color: #2ad8ae;
+  color: #fff;
+}

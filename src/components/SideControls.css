@@ -1,0 +1,23 @@
+.side-controls > div {
+  margin: 2em 0;
+  font-size: 19px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* .side-controls > div > img {
+  width: 5em;
+  height: 5em;
+} */
+
+.crack-a-cookie-group > img {
+  width: 5.5em;
+  height: 5.5em;
+  filter: drop-shadow(0 3.5px 2.3px rgb(177, 177, 177));
+}
+
+.get-more-cookies-group > img {
+  width: 4em;
+  height: 4em;
+  filter: drop-shadow(0 3.5px 2.3px rgb(177, 177, 177));
+}

@@ -1,0 +1,18 @@
+.welcome-modal {
+  position: relative;
+}
+
+.welcome-modal form {
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+.welcome-modal form label {
+  font-weight: 700;
+}
+
+.welcome-modal button.blue {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+}

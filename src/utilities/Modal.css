@@ -1,0 +1,22 @@
+.modal {
+  border: 5px solid;
+  border-radius: 15px;
+  background-color: #fff;
+  font-size: 20px;
+  line-height: 2em;
+  padding: 2em;
+}
+
+.modal-title {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.close-btn {
+  width: 0.9em;
+  height: 0.9em;
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  cursor: pointer;
+}

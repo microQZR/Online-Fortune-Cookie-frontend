@@ -1,0 +1,49 @@
+.header {
+  justify-content: space-between;
+  /* align-items: flex-start; */
+}
+
+.app-title {
+  font-size: 1.3em;
+  font-weight: 900;
+  background-color: #ffea31;
+  color: #ff5c00;
+}
+
+.header-controls {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.cookie-count-group {
+  margin-left: 4em;
+}
+
+.cookie-count-group span {
+  font-size: 28px;
+}
+
+/* The whole cookie img & the star badge graphic */
+.cookie-count-group img,
+.star-badge {
+  width: 3.3em;
+  height: 3.3em;
+}
+
+/* The star badge graphic */
+.star-badge {
+  background: url("../graphic-assets/original/Star\ badge.svg") no-repeat center /
+    contain;
+  color: #fff;
+  font-weight: 800;
+  margin-right: 1em;
+}
+
+.cookie-count-group img {
+  filter: drop-shadow(0 3.5px 2.3px rgb(177, 177, 177));
+}
+
+.cookie-count-group > div {
+  margin: 0 1em;
+}

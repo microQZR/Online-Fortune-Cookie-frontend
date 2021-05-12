@@ -1,0 +1,12 @@
+.cookie-msg-modal,
+.cookie-msg-warning-modal {
+  position: relative;
+  width: 32.5em;
+  height: 17em;
+}
+
+.cookie-msg-warning-modal .modal-title {
+  text-align: center;
+  color: #ff5c00;
+  margin: 1em 0;
+}
