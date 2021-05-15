@@ -36,3 +36,28 @@ body {
 .drop-shadow-click:active {
   transform: scale(0.96);
 }
+
+.input {
+  border: none;
+  border-bottom: 3px solid #357aff;
+  min-width: 15em;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px #357aff;
+}
+
+.input.wrong {
+  border-bottom: 3px solid #ff2e2e;
+  background-color: #ffd1d1;
+}
+
+.input.wrong:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px #ff2e2e;
+}

@@ -10,3 +10,26 @@
   color: #ff5c00;
   margin: 1em 0;
 }
+
+.half {
+  filter: drop-shadow(0 3.5px 2.3px rgb(177, 177, 177));
+}
+
+.cookie-left-half {
+  height: 75px;
+  position: relative;
+  bottom: -5px;
+}
+
+.cookie-right-half {
+  height: 70px;
+  position: relative;
+  bottom: 1px;
+}
+
+.cookie-message {
+  background-color: #e6e6e6;
+  margin: 0 1em;
+  padding: 0.5em 1.5em;
+  /* display: none; */
+}

@@ -1,6 +1,16 @@
 .trivia-modal {
   position: relative;
   padding: 2em 4em;
+  /* width: 32em; */
+  /* height: 19em; */
+}
+
+.response-modal,
+.waiting-modal {
+  position: relative;
+  /* padding: 2em 4em; */
+  width: 32.5em;
+  height: 18.5em;
 }
 
 .trivia-modal .modal-subtitle {
@@ -18,7 +28,7 @@
 }
 
 .trivia-modal input {
-  margin-bottom: 5em;
+  margin-bottom: 3.8em;
 }
 
 .trivia-modal button {
@@ -31,10 +41,10 @@
   right: 1.5em;
 }
 
-.response-modal {
+/* .response-modal {
   position: relative;
   padding: 2em 4em;
-}
+} */
 
 .response-modal > .modal-title {
   margin: 1em 0;
@@ -49,4 +59,8 @@
 .plus-cookie-group > div {
   font-size: 35px;
   font-weight: 800;
+}
+
+.loading-circle {
+  height: 50%;
 }
