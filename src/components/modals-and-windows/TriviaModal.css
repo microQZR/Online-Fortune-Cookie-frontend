@@ -1,7 +1,7 @@
 .trivia-modal {
   position: relative;
   padding: 2em 4em;
-  /* width: 32em; */
+  max-width: 40em;
   /* height: 19em; */
 }
 
@@ -20,6 +20,7 @@
 .trivia-modal .question {
   margin: 1.5em 0;
   font-weight: 700;
+  text-align: center;
 }
 
 .trivia-modal label {
@@ -63,4 +64,11 @@
 
 .loading-circle {
   height: 50%;
+}
+
+.wrong-answer-tip {
+  color: #ff2e2e;
+  font-weight: 600;
+  font-size: 0.8em;
+  /* text-transform: uppercase; */
 }

@@ -18,6 +18,7 @@ function TriviaModal(props) {
       <div className="modal-title">Trivia Time!</div>
       <div className="modal-subtitle">Answer the following question correctly to obtain a cookie.</div>
       <div className="question">Question: {props.qInfo.question}</div>
+      {isWrongAnswer ? <div className="wrong-answer-tip">Wrong Answer!</div> : null}
       <form>
         <label htmlFor="trivia-answer-input">Answer:</label>
         <input

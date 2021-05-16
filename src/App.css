@@ -1,26 +1,26 @@
 .header {
-  border: 1px solid red;
-  height: calc(15vh - 2em);
+  /* border: 1px solid red; */
+  height: calc(19vh - 2em);
   padding: 0 2em;
 }
 
 .body {
-  border: 1px solid blue;
-  height: calc(85vh - 2em);
-  background: url("./graphic-assets/testing/body-section-bg_V5.svg") center /
-    contain;
+  /* border: 1px solid blue; */
+  height: calc(81vh - 2em);
+  background: url("./graphic-assets/testing/body-section-bg_V5.svg") center / contain;
   justify-content: space-between;
 }
 
 .side-controls {
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
   min-width: calc(15vw - 2em);
   height: 100%;
   background: #ffefdb;
 }
 
 .main-sec {
-  outline: 1px solid orange;
+  /* outline: 1px solid orange; */
   min-width: calc(85vw - 2em);
   height: 100%;
+  box-shadow: 0 0 10px 10px #ffefdb inset;
 }

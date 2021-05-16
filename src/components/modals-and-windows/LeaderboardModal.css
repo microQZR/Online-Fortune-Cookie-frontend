@@ -1,0 +1,67 @@
+.leaderboard-modal {
+  width: 40em;
+  max-width: 90vh;
+  min-width: 20em;
+
+  max-height: 100%;
+}
+
+.leaderboard-title {
+  font-weight: 700;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+
+  /* max-height: 10%; */
+}
+
+.leaderboard-group {
+  max-height: 85%;
+}
+
+.leaderboard-heading {
+  line-height: 1.5em;
+  border-bottom: 2px solid;
+  padding: 0 8px;
+
+  /* max-height: 15%; */
+}
+
+.leaderboard-entries {
+  margin: 1em 0;
+  overflow: auto;
+  scrollbar-width: thin;
+
+  max-height: calc(85% - 2em);
+}
+
+/* This and the next two rule are for styling Webkit and Blink browsers scrollbars */
+.leaderboard-entries::-webkit-scrollbar {
+  width: 10px;
+}
+
+.leaderboard-entries::-webkit-scrollbar-track {
+  border-radius: 50px;
+  background: #31313154;
+}
+
+.leaderboard-entries::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #ffffff99;
+  box-shadow: inset 0 0 1px 0px #000000a6;
+}
+
+.leaderboard-modal div {
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.col-2 {
+  flex-basis: 80%;
+  overflow: hidden;
+}
+
+.col-1,
+.col-3 {
+  flex-basis: 10%;
+}
