@@ -7,7 +7,7 @@
 .body {
   /* border: 1px solid blue; */
   height: calc(81vh - 2em);
-  background: url("./graphic-assets/testing/body-section-bg_V5.svg") center / contain;
+  background: url("./graphic-assets/vecteezy/body-section-bg_V5.svg") center / contain;
   justify-content: space-between;
 }
 

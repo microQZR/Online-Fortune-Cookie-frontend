@@ -12,12 +12,7 @@ function App() {
   const [mainContentState, setMainContentState] = useState("welcome");
 
   const [totalCookiesEarned, setTotalCookiesEarned] = useState(0);
-  const [cookieStash, setCookieStash] = useState([
-    1,
-    2,
-    3,
-    "A very very very very very very very very very very very very very very very very very very very very very long message."
-  ]);
+  const [cookieStash, setCookieStash] = useState([]);
   const [messageStash, setMessageStash] = useState([]); //OPTIONAL TO BE IMPLEMENTED LATER
   const [newMessage, setNewMessage] = useState(null);
   const [topRank, setTopRank] = useState();
