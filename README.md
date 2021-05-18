@@ -7,7 +7,7 @@
 
 * Trivia questions are fetched from a MongoDB database through a backend application built using Express.js and user submitted answers are validated the same way.
 
-* A all-time top scorers/cookie-earners record list is also scored on a MongoDB database and that list viewable to all users.
+* An all-time top scorers/cookie-earners record list is also stored on a MongoDB database and that list is viewable to all users.
 
 ## Live Demo
 Try a running demo of the full application [here](https://online-fortune-cookie.netlify.app).
@@ -15,9 +15,9 @@ Try a running demo of the full application [here](https://online-fortune-cookie.
 ## Installation, build and deployment
 See the file ["Create-React-App-README.md"](./Create-React-App-README.md).
 
-The network origin used to fetch backend API resources is defined in an environment variable named: REACT_APP_BACKEND_URL
-This variable has a default value of: http://localhost:5000
-If a user wants to fetch resources from another origin, the value of this variable may be changes for example in the file [".env"](./.env).
+The network origin used to fetch backend API resources is defined in an environment variable named: _REACT_APP_BACKEND_URL_\
+This variable has a default value of: http://localhost:5000 \
+If it is desired to fetch resources from another origin, the value of this variable may be changed for example in the file [".env"](./.env).
 
 ## Attributions
 This project makes use of:
