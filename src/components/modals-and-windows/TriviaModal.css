@@ -10,7 +10,7 @@
   position: relative;
   /* padding: 2em 4em; */
   width: 32.5em;
-  height: 18.5em;
+  min-height: 18.5em;
 }
 
 .trivia-modal .modal-subtitle {
@@ -21,6 +21,10 @@
   margin: 1.5em 0;
   font-weight: 700;
   text-align: center;
+}
+
+.trivia-modal form {
+  width: 100%;
 }
 
 .trivia-modal label {
@@ -71,4 +75,16 @@
   font-weight: 600;
   font-size: 0.8em;
   /* text-transform: uppercase; */
+}
+
+@media (max-width: 767px) {
+  .trivia-modal {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 575px) {
+  .trivia-modal {
+    padding: 3em 2.3em;
+  }
 }

@@ -1,8 +1,9 @@
 .leaderboard-modal {
   width: 40em;
-  max-width: 90vh;
+  max-width: 90vw;
   min-width: 20em;
 
+  height: 75vh;
   max-height: 100%;
 }
 

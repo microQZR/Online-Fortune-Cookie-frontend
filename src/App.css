@@ -2,6 +2,9 @@
   /* border: 1px solid red; */
   height: calc(19vh - 2em);
   padding: 0 2em;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 0 10px 10px #ffefdb;
 }
 
 .body {
@@ -9,6 +12,7 @@
   height: calc(81vh - 2em);
   background: url("./graphic-assets/vecteezy/body-section-bg_V5.svg") center / contain;
   justify-content: space-between;
+  position: relative;
 }
 
 .side-controls {
@@ -16,11 +20,28 @@
   min-width: calc(15vw - 2em);
   height: 100%;
   background: #ffefdb;
+  position: absolute;
+  right: 0;
+  box-shadow: 0 0 10px 10px #ffefdb;
 }
 
 .main-sec {
   /* outline: 1px solid orange; */
   min-width: calc(85vw - 2em);
   height: 100%;
-  box-shadow: 0 0 10px 10px #ffefdb inset;
+}
+
+.main-sec > .modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  max-width: 85vw;
+}
+
+@media (max-width: 575px) {
+  .header {
+    padding: 0;
+  }
 }

@@ -6,6 +6,7 @@
 .welcome-modal form {
   margin-top: 1.5em;
   margin-bottom: 2em;
+  width: 100%;
 }
 
 .welcome-modal form label {

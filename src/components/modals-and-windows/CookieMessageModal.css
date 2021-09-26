@@ -2,7 +2,12 @@
 .cookie-msg-warning-modal {
   position: relative;
   width: 32.5em;
-  height: 17em;
+  min-height: 17em;
+  max-width: 85vw;
+}
+
+.cookie-msg-warning-modal {
+  overflow: hidden;
 }
 
 .cookie-msg-warning-modal .modal-title {

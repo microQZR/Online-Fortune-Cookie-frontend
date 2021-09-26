@@ -20,3 +20,21 @@
   right: 13px;
   cursor: pointer;
 }
+
+@media (max-width: 1400px) {
+  .modal-title {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 991px) {
+  .modal {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .modal {
+    line-height: 1.75em;
+  }
+}

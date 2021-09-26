@@ -186,14 +186,14 @@ function App() {
   return (
     <>
       <Header cookieStashCount={cookieStash.length} totalCookiesEarned={totalCookiesEarned} topRank={topRank} />
-      <section className="body flex">
-        <div className="main-sec flex-column">{mainContent}</div>
+      <section className="body">
         <SideControls
           crackACookieHandler={crackACookieHandler}
           getMoreCookiesHandler={getMoreCookiesHandler}
           showLeaderboardHandler={showLeaderboardHandler}
           pointerIsActive={activePointer}
         />
+        <div className="main-sec flex-column">{mainContent}</div>
       </section>
     </>
   );

@@ -13,6 +13,7 @@ body {
 
   background-color: #ffefdb;
   margin: 2em;
+  text-align: center;
 }
 
 .flex {
@@ -60,4 +61,11 @@ body {
 .input.wrong:focus {
   outline: none;
   box-shadow: 0 0 1px 1px #ff2e2e;
+}
+
+@media (max-width: 767px) {
+  .input {
+    min-width: unset;
+    max-width: 85%;
+  }
 }

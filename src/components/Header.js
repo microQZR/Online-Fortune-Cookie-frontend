@@ -11,7 +11,7 @@ function Header(props) {
         {props.topRank && (
           <div className="star-badge-group flex drop-shadow-click">
             <div className="star-badge flex">#{props.topRank}</div>
-            <div>
+            <div className="header-control-desc">
               Top Cookie
               <br />
               Earner
@@ -21,17 +21,17 @@ function Header(props) {
         <div className="total-earned-group flex">
           <img src={zigZag} alt="test" />
           <div>
-            Total Cookies Earned
+            <span className="header-control-desc">Total Cookies Earned</span>
             <br />
-            <span>× {props.totalCookiesEarned}</span>
+            <span className="header-control-num">× {props.totalCookiesEarned}</span>
           </div>
         </div>
         <div className="cookie-count-group flex">
           <img src={wholeCookie} alt="test" />
           <div>
-            Cookie Count
+            <span className="header-control-desc">Cookie Count</span>
             <br />
-            <span>× {props.cookieStashCount}</span>
+            <span className="header-control-num">× {props.cookieStashCount}</span>
           </div>
         </div>
       </div>
